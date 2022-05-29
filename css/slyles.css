@@ -318,6 +318,11 @@ margin-right: 30px;
     display: block;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: avto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
 }
 .footer {
      width: 1230px;
