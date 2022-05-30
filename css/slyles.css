@@ -73,7 +73,6 @@ padding-right: 15px;
 }
 /*логотип*/
 .logo {
-margin-left:15px;
 margin-right: 93px;
 font-family: 'Raleway',sans-serif;
     font-size: 26px;
@@ -106,11 +105,14 @@ font-size: 14px;
         letter-spacing: 0.02em;
         color:var(--title-text-color);
 }
-.item-li{
-  
-}
 .item-li:not(last-child){
 margin-left: 50px;
+}
+.title-nav-text{
+    display: block;
+    font-size: 14px;
+    line-height: 1.1;
+        letter-spacing: 0.02em
 }
 .title-nav-text:hover,
 .title-nav-text:focus {
@@ -119,9 +121,6 @@ margin-left: 50px;
 /*site nav */
 .site-nav {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-content: flex-start;
     margin-left: auto;
 padding-top: 32px;
     padding-bottom: 32px;
@@ -357,12 +356,15 @@ color:var(--bacground-font-waight)}
 .button-li-portfolio:not(:last-child){
     margin-right: 10px;
 }
+.section-team-card:not(:last-child){
+padding-bottom: 10px;
+}
 .conteiner-card{
     padding-top: 20px;
     padding-right: 24px;
     padding-left: 24px;
     padding-bottom: 20px;
-    border: 0 1px rgba(238, 238, 238, 1);
+    border: 0 1px 1px 1px rgba(238, 238, 238, 1);
 }
 .section-project-card {
     background-color:var(--bacground-font-waight);
