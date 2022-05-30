@@ -66,6 +66,28 @@ padding-right: 15px;
      padding-top: 32px;
        padding-bottom: 32px;
 }
+.img{
+ display: block;
+max-width: 100%; 
+height: auto;
+}
+.hight{
+    display: block;
+    padding-top: 0;
+}
+.visually-hidden {
+     position: absolute;
+     width:1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+    padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+    
+}
 /*title heder*/
 .header-main {
     border-bottom: 1px rgba(0, 0, 0, 1);
@@ -74,6 +96,7 @@ padding-right: 15px;
 /*логотип*/
 .logo {
 margin-right: 93px;
+padding: 20px 0;
 font-family: 'Raleway',sans-serif;
     font-size: 26px;
     line-height: 1.2;
@@ -108,8 +131,11 @@ font-size: 14px;
 .item-li:not(last-child){
 margin-left: 50px;
 }
+
+ 
 .title-nav-text{
     display: block;
+    padding: 20px 0;
     font-size: 14px;
     line-height: 1.1;
         letter-spacing: 0.02em
@@ -131,6 +157,7 @@ padding-top: 32px;
 }
 
 .site-nav-mail {
+    padding: 20px 0;
     color:var(--primery-text-color);
 }
 .site-nav-mail:hover,
@@ -138,6 +165,7 @@ padding-top: 32px;
   color:var(--color-logo);  
 }
 .site-nav-tel {
+    padding: 20px 0;
     color:var(--primery-text-color);
 }
 .site-nav-tel:hover,
