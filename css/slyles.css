@@ -217,11 +217,7 @@ padding: 10px 30px;
         justify-content: space-between;
 flex-basis: calc((100%-120px)/4)
 }
- .section-idea-ul:not(:last-child){
-margin-right: 30px;
- }
 .section-idea-details {
-
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -241,10 +237,10 @@ margin-right: 30px;
 }
 /*-------------------------------section-whatarewedoing-------------------------*/
 .dopclass{
+    display: block;
     padding-top: 0;
 }
 .section-title-main{
-    padding-top: 95px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
@@ -261,7 +257,7 @@ display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-.feachers-list:not(:last-child){
+.fichers-cards:not(:last-child){
     margin-right: 30px;
 }
 .fichers-cards {
