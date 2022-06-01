@@ -87,6 +87,7 @@ button {
     display: block;
     padding-top: 0;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -300,10 +301,9 @@ button {
     flex-basis: calc((100%-120px)/4);
 }
 
-.section-team-ul:not(:nth-child(3n)) {
+.section-team-card:not(:nth-child(4n)) {
     margin-right: 30px;
 }
-
 .section-team .section-team-card {
     background-color: var(--bacground-font-waight);
 }
@@ -427,7 +427,6 @@ button {
     margin-right: 8px;
 }
 
-
 .conteiner-card {
     padding-top: 20px;
     padding-right: 24px;
@@ -437,13 +436,14 @@ button {
 }
 
 .section-project-card {
+
     background-color: var(--bacground-font-waight);
 }
 
 .section-project-card:not(:nth-child(3n)) {
     margin-right: 30px;
-    margin-bottom: 30px; 
 }
+
 .project-section-title {
     margin-bottom: 4px;
     font-weight: 700;
