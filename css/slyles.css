@@ -439,9 +439,9 @@ button {
 
     background-color: var(--bacground-font-waight);
 }
-
 .section-project-card:not(:nth-child(3n)) {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .project-section-title {
